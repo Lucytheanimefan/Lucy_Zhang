@@ -2,14 +2,14 @@ html, body {
     width:100%;
     height:100%;
 }
- 
+
 /* full width/height container */
 #slides-container {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
- 
+
 /* double the height/width of a viewport */
 #slides {
     width: 200%;
@@ -62,16 +62,39 @@ html, body {
     text-align: right;
     color: #fff;
 }
-p, h1 { margin: 0; }
-h1 { margin-bottom: 0.2em; }
-p { line-height: 1.333em; }
+p, h1 { 
+    margin: 0;
+}
+h1 { 
+    margin-bottom: 0.2em;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px; 
+}
+
+a,p{
+    font-family: Amaranth;
+}
+p { 
+    line-height: 1.333em;
+    font-size: 25px; 
+}
+
+
+#slide-1 a{
+    position: relative;
+    right: auto;
+    left: 20px;
+    top: 20px;
+    bottom: auto;
+    color: white;
+}
 
 #slide-3 .caption {
     left: 5%;
     right: auto;
     color: white;
 }
- 
+
 #slide-4 .caption {
     right: auto;
     left: 5%;

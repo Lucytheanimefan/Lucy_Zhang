@@ -7,8 +7,9 @@
 
 	<title>Happy Mother's Day</title>
 
-	<link href="css/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -27,16 +28,53 @@
 			<h1>Lucy Zhang</h1>
 			<p>Electrical engineer, computer scientist, writer, and anime fan</p>
 		</div>
-	</div>
-	<div id="slide-2" class="slide">
-		<div class="caption" data-130p="opacity: 0; transform:translate(0px,-200%);"
-		data-180p="opacity: 1; transform:translate(0px,0px);"
-		data-250p=""
-		data-280p="opacity: 0; transform:translate(-100px,0px);"
-		data-anchor-target="#helper">
-		<h1>Image 2 Title</h1>
-		<p>Image description goes here.</p>
-	</div>
+		<a href="https://github.com/Lucytheanimefan">Github</a>
+		<a href="https://www.linkedin.com/in/lucyzhang7">LinkedIn</a>
+
+		<svg viewBox="0 0 1000 800">
+			<symbol id="s-text">
+				<text text-anchor="middle"
+				x="20%"
+				y="20%"
+				class="text--line"
+				>
+				Software Engineer
+			</text>
+			<text text-anchor="middle"
+			x="50%"
+			y="68%"
+			class="text--line2"
+			>
+			Stroke
+		</text>
+
+	</symbol>
+
+	<g class="g-ants">
+		<use xlink:href="#s-text"
+		class="text-copy"></use>     
+		<use xlink:href="#s-text"
+		class="text-copy"></use>     
+		<use xlink:href="#s-text"
+		class="text-copy"></use>     
+		<use xlink:href="#s-text"
+		class="text-copy"></use>     
+		<use xlink:href="#s-text"
+		class="text-copy"></use>     
+	</g>
+
+
+</svg>
+</div>
+<div id="slide-2" class="slide">
+	<div class="caption" data-130p="opacity: 0; transform:translate(0px,-200%);"
+	data-180p="opacity: 1; transform:translate(0px,0px);"
+	data-250p=""
+	data-280p="opacity: 0; transform:translate(-100px,0px);"
+	data-anchor-target="#helper">
+	<h1>Image 2 Title</h1>
+	<p>Image description goes here.</p>
+</div>
 </div>
 <div id="slide-3" class="slide">
 	<div class="caption" data-250p="opacity: 0; transform:translate(300px,0px);"
