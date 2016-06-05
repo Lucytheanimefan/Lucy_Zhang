@@ -15,9 +15,9 @@
 }
 .webDev > #HerCampus{
   position: relative;
-  width: 30%;
+  width: 20%;
   left: 50px;
-  top: 65px;
+  top: 75px;
   right: 500px;
   background: rgba(255,255,255,0.3);
   text-align: left;
@@ -28,21 +28,61 @@
 
 }
 
+.webDev p, .DataVis p, .softDev p{
+  text-align: center;
+}
+
 .DataVis > #Phenoscape{
   position: relative;
   background: rgba(255,255,255,0.3);
-  top: 120px;
+  top:180px;
   left: 50px;
-  width: 30%;
+  width: 20%;
 }
 
-.DataVis #DukeChronicle{
+.DataVis > #DukeChronicle{
   position: relative;
-  left: 600px;
-  min-width:300px;
-  overflow: hidden;
+  background: rgba(255,255,255,0.3);
+  left: 360px;
+  width: 15%;
+  top: -60px;
+}
+
+.softDev{
+  position: relative;
+  left: 50%;
 
 }
+
+.softDev> #Apple{
+  position: relative;
+  background: rgba(255,255,255,0.3);  
+  top: -500px;
+  width: 40%;
+}
+
+.softDev > #AdvancedInsight{
+  position: relative;
+  background: rgba(255,255,255,0.3); 
+  top: -480px; 
+  width: 17%;
+}  
+
+.softDev > #LUCAS{
+  position: relative;
+  background: rgba(255,255,255,0.3); 
+  top: -617px; 
+  left: 18%;
+  width: 32%;
+}
+
+.softDev>#DukeMakers{
+  position: relative;
+  background: rgba(255,255,255,0.3);
+  top: -600px;
+  width: 50%;
+}
+
 .text-copy {
   fill: none;
   stroke: white;
