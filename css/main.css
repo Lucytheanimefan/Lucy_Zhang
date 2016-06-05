@@ -59,6 +59,10 @@ a{
     -ms-transform: translate(100%,100%);
     transform: translate(100%,100%);
 }
+
+#slide-3 p{
+    color: white;
+}
 /* Slide 4 goes to the top right */
 #slide-4 {
     background: url('img/5cmp.jpg') no-repeat center center;
