@@ -64,19 +64,15 @@ html, body {
 }
 p, h1 { 
     margin: 0;
+    font-family: Amaranth;
 }
 h1 { 
-    margin-bottom: 0.2em;
-    font-family: 'Brush Script MT', cursive;
     font-size: 50px; 
 }
 
-a,p{
-    font-family: Amaranth;
-}
 p { 
     line-height: 1.333em;
-    font-size: 25px; 
+    font-size: 15px; 
 }
 
 

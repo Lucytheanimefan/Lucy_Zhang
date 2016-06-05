@@ -1,7 +1,7 @@
-.text--line {
-  font-size: 50px; }
+.text--line, .text--line2 {
+  font-size: 60px; }
 
-svg {
+#softwareStuff {
   position: absolute;
   width: 100%;
   height: 100%; }
