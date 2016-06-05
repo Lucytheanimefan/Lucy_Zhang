@@ -1,11 +1,48 @@
-.text--line, .text--line2 {
+.text--line {
   font-size: 60px; }
+
+.text--line2 {
+  font-size: 40px;
+}
 
 #softwareStuff {
   position: absolute;
   width: 100%;
   height: 100%; }
 
+.webDev{
+
+}
+.webDev > #HerCampus{
+  position: relative;
+  width: 30%;
+  left: 50px;
+  top: 65px;
+  right: 500px;
+  background: rgba(255,255,255,0.3);
+  text-align: left;
+}
+
+.DataVis{
+  position: relative;
+
+}
+
+.DataVis > #Phenoscape{
+  position: relative;
+  background: rgba(255,255,255,0.3);
+  top: 120px;
+  left: 50px;
+  width: 30%;
+}
+
+.DataVis #DukeChronicle{
+  position: relative;
+  left: 600px;
+  min-width:300px;
+  overflow: hidden;
+
+}
 .text-copy {
   fill: none;
   stroke: white;

@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Happy Mother's Day</title>
+    <title>Lucy Zhang</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amaranth" />
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/ticker.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/jquery-2.2.1"></script>
 </head>
 
 <body>
@@ -19,8 +21,8 @@
                 <div class="caption" data-40p="opacity: 1; transform:translate(0px,0px);" data-70p="opacity: 0; transform:translate(0px,-100%);" data-anchor-target="#helper">
                     <h1>Lucy Zhang</h1>
                     <p>Duke University Class of 2019, BSE in Electrical and Computer Engineering</p>
-                    <p><a href="https://github.com/Lucytheanimefan">Github</a>
-                <a href="https://www.linkedin.com/in/lucyzhang7">LinkedIn</a></p>
+                    <a href="https://github.com/Lucytheanimefan">Github</a>
+                    <a href="https://www.linkedin.com/in/lucyzhang7">LinkedIn</a>
                 </div>
                 <div class='content'>
                     <div class='visible'>
@@ -35,16 +37,22 @@
             </div>
             <div id="slide-2" class="slide">
                 <div class="caption" data-130p="opacity: 0; transform:translate(0px,-200%);" data-180p="opacity: 1; transform:translate(0px,0px);" data-250p="" data-280p="opacity: 0; transform:translate(-100px,0px);" data-anchor-target="#helper">
-                    <h1>Image 2 Title</h1>
-                    <p>Image description goes here.</p>
+                    <h1>Software Engineer</h1>
+                    <p>The stuff accomplished while wearing pajamas.</p>
                 </div>
                 <svg viewBox="0 0 1300 800" id="softwareStuff">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="20%" y="20%" class="text--line">
+                        <text text-anchor="middle" x="20%" y="10%" class="text--line">
                             Web Development
                         </text>
-                        <text text-anchor="middle" x="30%" y="30%" class="text--line2">
-                            Software Engineer
+                        <text text-anchor="middle" x="20%" y="50%" class="text--line">
+                            Data Visualization
+                        </text>
+                        <text text-anchor="middle" x="60%" y="10%" class="text--line">
+                            Automation
+                        </text>
+                        <text text-anchor="middle" x="60%" y="50%" class="text--line">
+                            Web Scraping
                         </text>
                     </symbol>
                     <g class="g-ants">
@@ -55,6 +63,29 @@
                         <use xlink:href="#s-text" class="text-copy"></use>
                     </g>
                 </svg>
+                <div class="webDev">
+                    <div id="HerCampus">
+                        <p>Web Developer for <a href="http://www.hercampus.com/">Her Campus Media</a>
+                        </p>
+                        <li>Developed internal metrics dashboard</li>
+                        <li>Utilied Facebook, Twitter, Pinterest, and Instagram API to query for data</li>
+                        <li>Visualized data using d3.js, jquery, bootstrap, CSS, HTML </li>
+                    </div>
+                </div>
+                <div class="DataVis">
+                    <div id="Phenoscape">
+                        <p><a href="http://phenoscape.org/">Phenoscape</a> Programming Intern
+                            </p>
+                                <li>Visualized data concentrations of phenotypes provided by the Phenoscape database</li>
+                                <li>Created interactive graphs that query the Phenoscape API in real time to drill down on taxonomy and anatomy hierarchies</li>
+                                <li>Retrieved and graphed data on annotated taxa counts using d3.js, javascript, HTML, and CSS</li>
+                    </div>
+                    <div id="DukeChronicle">
+                        <p>Duke Chronicle data visualization</p>
+                                <li>Created <a href="http://www.dukechronicle.com/article/2016/03/visualizing-statements-media-coverage-of-the-duke-lacrosse-case">word cloud</a> of Duke lacrosse scandal using webscraping, Processing, and Processing.js</li>
+                                <li>Create visualizations using d3 and Processing for themed issues</li>
+                    </div>
+                </div>
             </div>
             <div id="slide-3" class="slide">
                 <div class="caption" data-250p="opacity: 0; transform:translate(300px,0px);" data-300p="opacity: 1; transform:translate(0px,0px);" data-anchor-target="#helper">
@@ -76,6 +107,7 @@
         <div class="marker blue"></div>
         <div class="marker yellow"></div>
     </div>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
     var s = skrollr.init();

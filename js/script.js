@@ -1,0 +1,2 @@
+$("#HerCampus").fadeIn("slow");
+

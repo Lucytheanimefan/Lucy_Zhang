@@ -3,6 +3,10 @@ html, body {
     height:100%;
 }
 
+a{
+    stroke: blue;
+}
+
 /* full width/height container */
 #slides-container {
     width: 100%;
@@ -30,6 +34,10 @@ html, body {
     background: url('img/5cm.jpg') no-repeat center center;
     background-size: cover;
 }
+
+#slide-1 p{
+    color: white;
+}
 /* Slide 2 goes to the bottom left */
 #slide-2 {
     background: url('img/sakura.jpg') no-repeat center center;
@@ -38,6 +46,11 @@ html, body {
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
+
+#slide-2 h1,p{
+    color: black;
+}
+
 /* Slide 3 goes to the bottom right */
 #slide-3 {
     background: url('img/5-centimeters-per-second.jpg') no-repeat center center;
