@@ -139,3 +139,36 @@ p {
 .yellow {
     background-color: yellow;
 }
+
+/*----------------Gear-----------------------*/
+i {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 30px;
+    background: url(http://i.imgur.com/lOBxb.png);
+    -webkit-animation: barrelRoll 2s infinite linear;
+    -webkit-animation-play-state: paused;
+}
+
+i:last-of-type {
+    top: 22px;
+    left: 56px;
+    -webkit-animation-name: invertBarrelRoll;
+}
+
+div > i {
+    -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes barrelRoll {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes invertBarrelRoll {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(-360deg); }
+}
