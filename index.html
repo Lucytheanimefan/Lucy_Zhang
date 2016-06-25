@@ -40,19 +40,16 @@
                     <h1>Software Engineer</h1>
                     <p>The stuff accomplished while wearing pajamas.</p>
                 </div>
-                <svg viewBox="0 0 1300 800" id="softwareStuff">
+                <svg viewBox="0 0 1500 200" id="softwareStuff">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="20%" y="10%" class="text--line">
-                            Web Development
+                        <text text-anchor="middle" x="32%" y="7%" class="text--line">
+                            Web Development (full stack)
                         </text>
-                        <text text-anchor="middle" x="20%" y="60%" class="text--line">
+                        <text text-anchor="middle" x="50%" y="27%" class="text--line">
                             Data Visualization
                         </text>
-                        <text text-anchor="middle" x="70%" y="10%" class="text--line">
+                        <text text-anchor="middle" x="70%" y="47%" class="text--line">
                             Software Development
-                        </text>
-                        <text text-anchor="middle" x="70%" y="60%" class="text--line">
-                            Awards/Honors
                         </text>
                     </symbol>
                     <g class="g-ants">
@@ -63,55 +60,69 @@
                         <use xlink:href="#s-text" class="text-copy"></use>
                     </g>
                 </svg>
-                <div class="webDev">
-                    <div id="HerCampus">
-                        <p>Web Developer for <a href="http://www.hercampus.com/">Her Campus Media</a>(March 2016—Present, Remote)
-                        </p>
-                        <li>Developed internal metrics dashboard</li>
-                        <li>Utilied Facebook, Twitter, Pinterest, and Instagram API to query for data</li>
-                        <li>Visualized data using d3.js, jquery, bootstrap, CSS, HTML </li>
+                <div class="container-fluid">
+                    <div class="col-md-4">
+                        <button class="accordion">Web Developer for <a href="http://www.hercampus.com/">Her Campus Media</a>(March 2016—Present, Remote)</button>
+                        <div class="panel" id="HerCampus">
+                            <p>
+                                <li>Developed internal metrics dashboard</li>
+                                <li>Utilied Facebook, Twitter, Pinterest, and Instagram API to query for data</li>
+                                <li>Visualized data using d3.js, jquery, bootstrap, CSS, HTML </li>
+                            </p>
+                        </div>
+                        <button class="accordion"><a href="http://phenoscape.org/">Phenoscape</a> Programming Intern (January 2016—May 2016, Durham)</button>
+                        <div class="panel" id="Phenoscape">
+                            <p>
+                                <li>Visualized data concentrations of phenotypes provided by the Phenoscape database</li>
+                                <li>Created interactive <a href="http://kb.phenoscape.org/#/visualization">graphs</a> that query the Phenoscape API in real time to drill down on taxonomy and anatomy hierarchies</li>
+                                <li>Retrieved and graphed data on annotated taxa counts using d3.js, javascript, HTML, and CSS</li>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="DataVis">
-                    <div id="Phenoscape">
-                        <p><a href="http://phenoscape.org/">Phenoscape</a> Programming Intern (January 2016—May 2016, Durham) </p>
-                        <li>Visualized data concentrations of phenotypes provided by the Phenoscape database</li>
-                        <li>Created interactive graphs that query the Phenoscape API in real time to drill down on taxonomy and anatomy hierarchies</li>
-                        <li>Retrieved and graphed data on annotated taxa counts using d3.js, javascript, HTML, and CSS</li>
+                    <div class="col-md-4">
+                        <button class="accordion">Duke Chronicle data visualization(January 2016—Present, Durham) </button>
+                        <div class="panel" id="DukeChronicle">
+                            <p>
+                                <li>Created <a href="http://www.dukechronicle.com/article/2016/03/visualizing-statements-media-coverage-of-the-duke-lacrosse-case">word cloud</a> of Duke lacrosse scandal using webscraping, Processing, and Processing.js</li>
+                                <li>Create visualizations using d3 and Processing for themed issues</li>
+                            </p>
+                        </div>
+                        <button class="accordion">Software engineer intern at Apple (May 2016—Present, Cupertino)</button>
+                        <div class="panel" id="Apple">
+                            <p>Software engineer intern at Apple (May 2016—Present, Cupertino)
+                            </p>
+                        </div>
+                        <button class="accordion">Programming Research Assistant at <a href="http://advanced-hindsight.com/">Center for Advanced Hindsight</a> (May 2016—Present, Durham)</button>
+                        <div class="panel" id="AdvancedHindsight">
+                            <p>
+                                <li>Program games using Python module pygame to simulate decision making process and make interpretations on financial behavior</li>
+                            </p>
+                        </div>
                     </div>
-                    <div id="DukeChronicle">
-                        <p>Duke Chronicle data visualization(January 2016—Present, Durham) </p>
-                        <li>Created <a href="http://www.dukechronicle.com/article/2016/03/visualizing-statements-media-coverage-of-the-duke-lacrosse-case">word cloud</a> of Duke lacrosse scandal using webscraping, Processing, and Processing.js</li>
-                        <li>Create visualizations using d3 and Processing for themed issues</li>
+                    <div class="col-md-4">
+                        <button class="accordion">Research Assistant at <a href="http://css-lucas.com/">Laboratory for Unconventional Conflict Analysis</a> (January 2016—May 2016, Durham)</button>
+                        <div class="panel" id="LUCAS">
+                            <p>
+                                <li>Devise mathematical models based on system dynamics to simulate decision making</li>
+                                <li>Design and code algorithms to provide an answer to how a nation will behave in response to different factors</li>
+                                <li>Data visualization to depict relations between actors using QGIS</li>
+                            </p>
+                        </div>
+                        <button class="accordion">Software Engineer for DukeMakers (August 2015—January 2016)</button>
+                        <div class="panel" id="DukeMakers">
+                            <p>
+                                <li>Developed python program to access G-code for letters to send to a Tweet-writing robot</li>
+                            </p>
+                        </div>
+                        <button class="accordion">Awards</button>
+                        <div class="panel" id="Awards">
+                            <p>
+                                <li>4th place in 2016 <a href="http://dukesteamchallenge.org/">Duke STEAM</a> competition</li>
+                                <li><a href="https://sites.duke.edu/dtech/about-the-program/">Duke Technology Scholar</a> Class of 2016</li>
+                                <li>Duke History Hackathon Award for digital history</li>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="softDev">
-                    <div id="Apple">
-                        <p>Software engineer intern at Apple (May 2016—Present, Cupertino)
-                        </p>
-                    </div>
-                    <div id="AdvancedInsight">
-                        <p>Python Programmer at <a href="http://advanced-hindsight.com/">Center for Advanced Hindsight</a> (May 2016—Present, Durham)
-                        </p>
-                        <li>Program games using Python module pygame to simulate decision making process and make interpretations on financial behavior</li>
-                    </div>
-                    <div id="LUCAS">
-                        <p>Research Assistant at <a href="http://css-lucas.com/">Laboratory for Unconventional Conflict Analysis</a> (January 2016—May 2016, Durham)
-                        </p>
-                        <li>Devise mathematical models based on system dynamics to simulate decision making</li>
-                        <li>Design and code algorithms to provide an answer to how a nation will behave in response to different factors</li>
-                        <li>Data visualization to depict relations between actors using QGIS</li>
-                    </div>
-                    <div id="DukeMakers">
-                        <p>Software Engineer for DukeMakers (August 2015—January 2016)
-                        </p>
-                        <li>Developed python program to access G-code for letters to send to a Tweet-writing robot</li>
-                    </div>
-                </div>
-                <div class="awards">
-                    <p>4th place in 2016 <a href="http://dukesteamchallenge.org/">Duke STEAM</a> competition</p>
-                    <p><a href="https://sites.duke.edu/dtech/about-the-program/">Duke Technology Scholar</a> Class of 2016</p>
-                    <p>Duke History Hackathon Award for digital history</p>
                 </div>
             </div>
             <div id="slide-3" class="slide">
