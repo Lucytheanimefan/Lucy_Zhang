@@ -291,3 +291,29 @@ div > i {
     margin-left: 10px;
     margin-top: 10px;
 }
+
+#writingStuff{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#AnimeMaru{
+    opacity: 0;
+}
+
+#AnimeMaru:hover{
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+/*
+#TP, #DEAN, #chron p{
+    visibility:hidden;
+}
+
+#chron p: hover{
+    visibility: visible;
+}
+*/
