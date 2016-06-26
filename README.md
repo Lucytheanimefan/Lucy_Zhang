@@ -1,2 +1,3 @@
 # Personal-site
-Personal website
+
+http://people.duke.edu/~lz107/Lucy_Zhang/
