@@ -164,7 +164,9 @@ p {
 
 
 /*-----------------------Slide 2 drop downs-----------------------*/
-
+.slide-2 p{
+    color: black;
+}
 button.accordion {
     background-color: rgba(238, 238, 238, 0.7);
     color: #444;
@@ -270,14 +272,22 @@ div > i {
     font-size: 15px;
     text-align: left;
 
-    -webkit-transition: opacity 2s ease-in;
-       -moz-transition: opacity 2s ease-in;
-        -ms-transition: opacity 2s ease-in;
-         -o-transition: opacity 2s ease-in;
-            transition: opacity 2s ease-in;
+    -webkit-transition: opacity 6s ease-in;
+       -moz-transition: opacity 6s ease-in;
+        -ms-transition: opacity 6s ease-in;
+         -o-transition: opacity 6s ease-in;
+            transition: opacity 6s ease-in;
 }
 
 
 #hardware li.load {
     opacity: 1;
+}
+
+
+/*--------------------------Slide 4------------------------*/
+#slide-4 h1,p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
 }
