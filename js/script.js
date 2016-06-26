@@ -16,3 +16,5 @@ function dropDownInteractivity() {
 
 dropDownInteractivity();
 
+$("#hardware li").addClass("load")
+
