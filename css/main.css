@@ -184,7 +184,7 @@ button.accordion {
 
 button.accordion.active,
 button.accordion:hover {
-   background-color: rgba(238, 238, 238, 0.7);
+   background-color: rgba(238, 238, 238, 0.4);
     color: #444;
 }
 
@@ -202,7 +202,7 @@ button.accordion.active:after {
 
 div.panel {
     padding: 0 18px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     max-height: 0;
     overflow-y: hidden;
     transition: 0.6s ease-in-out;
