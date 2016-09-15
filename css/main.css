@@ -5,10 +5,21 @@ body {
 }
 
 a {
-    stroke: blue;
+    stroke: lightblue;
 }
 
+#byline{
+    font-size: 20px;
+}
 
+.link{
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.link:hover{
+    font-color: lightblue;
+}
 /* full width/height container */
 
 #slides-container {
@@ -113,8 +124,6 @@ p {
 #slide-1 a {
     position: relative;
     right: auto;
-    left: 20px;
-    top: 20px;
     bottom: auto;
     color: white;
 }
